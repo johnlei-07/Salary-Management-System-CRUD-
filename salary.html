@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary System</title>
+    <link rel="stylesheet" href="salary.css">
+</head>
+
+<body> 
+    <header>
+        <h1>Salary Computation</h1>
+    </header>
+
+    <div class="row col-sm-12 align-items-center">
+        <div class="form-floating row col-sm-2">
+            <input type="text" class="form-control" id="empName" placeholder="">
+            <label for="floatingStudent">Employee Name</label>
+        </div>
+        <div class="form-floating row col-sm-2">
+            <input type="number" class="form-control" id="perHour" placeholder="">
+            <label for="floatingStudent">Per Hour(PHP)</label>
+        </div>
+        <div class="form-floating row col-sm-2">
+            <input type="number" class="form-control" id="workingHour" placeholder="">
+            <label for="floatingStudent">Working Hours</label>
+        </div>
+        <div class="form-floating row col-sm-2">
+            
+            <input type="number" class="form-control" id="perOT" placeholder="">
+            <label for="floatingStudent">Per OverTime (PHP)</label>
+        </div>
+        <div class="form-floating row col-sm-2">
+            <input type="number" class="form-control" id="otHour" placeholder="">
+            <label for="floatingStudent">Total Month OT Hours</label>
+        </div>
+        <div class="form-floating row col-sm-2">
+            <input type="number" class="form-control" id="attend" placeholder="">
+            <label for="floatingStudent">Total Attendance</label>
+        </div>
+        
+
+    </div>
+    <button type="button" class="btn btn-warning" id="submitData">Submit</button><br><br><br>
+    <h1>Employee's Salary</h1>
+    
+    <p>SEARCH YOUR NAME </p>  
+    <input id="myInput" type="text" placeholder="Search..">
+    <table class = "table table-striped">
+        <thead>
+            <tr>    
+                <th>Employee Name</th>
+                <th>PER(HOUR)</th>
+                <th>WORKING HOURS</th>
+                <th>PER(OVERTIME)</th>
+                <th>OVERTIME HOURS</th>
+                <th>TAX</th>
+                <th>SALARY(MONTH)</th>
+                <th>ACTION</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+
+        <tbody id = "myTable">
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src = "salary.js"></script>
+
+</html>

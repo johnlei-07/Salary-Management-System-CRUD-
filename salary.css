@@ -1,0 +1,73 @@
+header {
+    background-color: navy;
+    color: white ;
+    padding: 15px;
+    text-align: center;
+}
+  
+
+html{
+    background-color: gray !important;
+    margin: 2%;
+  }
+  
+ 
+.btn.btn-warning {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 55px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+
+p {
+  text-align: center;
+  color: #777;
+}
+
+
+#myInput {
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+.row>*{
+   background-color:  auto;
+   margin-left: 65px;
+  
+}
+.table.table-striped {
+  
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table.table-striped th, .table.table-striped td {
+  
+  padding: 10px;
+  border: 1px solid red; 
+  text-align: left;
+}
